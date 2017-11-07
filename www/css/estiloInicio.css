@@ -1,0 +1,37 @@
+/*------------------------------inicio-----------------------------------*/
+.border{
+    background: #fff530;
+    font-family: cursive;
+    font-size: 20px;
+    height: 70px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.nn{
+    /*    background-image: url(../img/caña.jpg);
+        width: 100%;
+        height: 100%;*/
+}
+.barra{
+    margin-left: 50px;
+}
+
+/*------------------------------contacto-----------------------------------*/
+.formulario{
+    margin-top: 30px;
+    width: 40%;
+}
+.datosE{
+    margin-top: 10px;
+    width: 44%;
+    margin-left: 100px;
+}
+.boton{
+    margin-left: 80%;
+    margin-top: 8px;
+}
+.form{
+    margin-top: 6px;
+}
