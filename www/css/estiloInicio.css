@@ -38,3 +38,31 @@
 .form1{
     margin-top: 2px;
 }
+/*-----------------------------Quienes somos-----------------------------*/
+.somos{
+    width: 30%;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.descrip{
+    margin-top: 20px;
+    width: 60%; 
+    border: 2px solid;
+    webkit-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    moz-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+}
+.texto{
+    font-size: 18px;
+    text-align: justify;
+}
+.ti{
+    text-decoration: none;
+    margin-top: 5px;
+}
+/*----------------------------------videos------------------------------------------*/
+.video{
+    border: 2px solid;
+    width: 40%;
+    margin-top: 10px;
+}

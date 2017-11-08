@@ -15,11 +15,23 @@ angular.module('trapicheBiobando').config(['$routeProvider', '$httpProvider', fu
                 }).
                 when('/nosotros', {
                     controller: 'nosotrosController',
-                    templateUrl: 'app/template/video.html'
+                    templateUrl: 'app/template/nosotros.html'
                 }).
                 when('/producto', {
                     controller: 'productoController',
-                    templateUrl: 'app/template/video.html'
+                    templateUrl: 'app/template/producto.html'
+                }).
+                when('/mision', {
+                    controller: 'misionController',
+                    templateUrl: 'app/template/mision.html'
+                }).
+                when('/vision', {
+                    controller: 'visionController',
+                    templateUrl: 'app/template/vision.html'
+                }).
+                when('/politicalidad', {
+                    controller: 'politicalidadController',
+                    templateUrl: 'app/template/politicalidad.html'
                 }).
                 otherwise('/');
     }
