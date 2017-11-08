@@ -1,4 +1,4 @@
-angular.module('trapicheBiobando').controller('videoController'['$scope', 'securityService', function () {
+angular.module('trapicheBiobando').controller('videoController'[function () {
        
     }]);
 

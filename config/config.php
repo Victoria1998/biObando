@@ -3,7 +3,7 @@
 $config = new myConfig();
 $config->setPath('C:/xampp/htdocs/biobando/');
 
-$config->setDrive('pgsql');
+$config->setDrive('mysql');
 $config->setHost('localhost');
 $config->setPort(5432);
 $config->setUser('postgres');

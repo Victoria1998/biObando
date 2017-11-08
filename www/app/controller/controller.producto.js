@@ -1,4 +1,4 @@
-angular.module('trapicheBiobando').controller('productoController'['$scope', 'securityService', function () {
+angular.module('trapicheBiobando').controller('productoController'[function () {
        
     }]);
 
