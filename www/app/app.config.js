@@ -33,6 +33,14 @@ angular.module('trapicheBiobando').config(['$routeProvider', '$httpProvider', fu
                     controller: 'politicalidadController',
                     templateUrl: 'app/template/politicalidad.html'
                 }).
+                when('/objetivoscalidad', {
+                    controller: 'objetivoscalidController',
+                    templateUrl: 'app/template/objetivoscalidad.html'
+                }).
+                when('/filosofiaempresarial', {
+                    controller: 'filosofiaempController',
+                    templateUrl: 'app/template/filosofiaempresarial.html'
+                }).
                 otherwise('/');
     }
 ]);
