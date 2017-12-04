@@ -18,33 +18,38 @@
         </div>
     </nav>
     <!-------------------------------------------------------formulario para llenar------------------------------------------------------------------>
-    <div class="formulario col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <div class="input-group form">
-            <span class="input-group-addon"><i class="fa fa-user-circle-o"></i></span>
-            <input type="text" class="form-control" aria-label="..." placeholder="Nombres y Apellidos" required>
+    <form ng-submit="submitAgregarContacto()">
+        <div class="formulario col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<!--            <div class="alert alert-success" ng-show="ContactoRegistrado">
+                <center>Mensaje Enviado Con Exito</center>
+            </div>-->
+            <div class="input-group form">
+                <span class="input-group-addon"><i class="fa fa-user-circle-o"></i></span>
+                <input ng-model="dataRegistrarContacto.nombre" type="text" class="form-control" aria-label="..." placeholder="Nombres y Apellidos" required>
+            </div>
+            <div class="input-group form">
+                <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                <input ng-model="dataRegistrarContacto.correo" type="email" class="form-control" aria-label="..." placeholder="Correo" required>
+            </div>  
+            <div class="input-group form">
+                <span class="input-group-addon"><i class="fa fa-phone-square"></i></span>
+                <input ng-model="dataRegistrarContacto.telefono" type="number" class="form-control" aria-label="..." placeholder="Teléfono" required>
+            </div>
+            <div class="input-group form">
+                <span class="input-group-addon"><i class="fa fa-text-height"></i></span>
+                <textarea ng-model="dataRegistrarContacto.mensaje" type="text" class="form-control" rows="6" placeholder="Mensaje*" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-default boton">Enviar</button>
         </div>
-        <div class="input-group form">
-            <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
-            <input type="email" class="form-control" aria-label="..." placeholder="Correo" required>
-        </div>
-        <div class="input-group form">
-            <span class="input-group-addon"><i class="fa fa-phone-square"></i></span>
-            <input type="tel" class="form-control" aria-label="..." placeholder="Telefono" required>
-        </div>
-        <div class="input-group form">
-            <span class="input-group-addon"><i class="fa fa-text-height"></i></span>
-            <textarea type="text" class="form-control" rows="6" placeholder="Mensaje*"></textarea>
-        </div>
-        <button type="button" class="btn btn-default boton">Enviar</button>
-    </div>
+    </form>
 
     <!---------------------------------------------------------------------------------------------------------------------------------------------->
     <!-------------------------------------datos de la empresa-------------------------------------------------------------------------------------->
 
-    <div class="datosE col-lg-4 col-md-4 col-sm-4  col-xs-4"><h3>Datos de la Empresa</h3><br>
+    <div class="datosE col-lg-4 col-md-4 col-sm-12  col-xs-12"><h3>Datos de la Empresa</h3><br>
         <div class="input-group form1">
             <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-            <input type="text" class="form-control" aria-label="..." placeholder="Telefono: +57 (2)214 16 03" disabled>
+            <input type="text" class="form-control" aria-label="..." placeholder="Teléfono +57 (2)214 16 03" disabled>
         </div>
         <div class="input-group form1">
             <span class="input-group-addon"><i class="fa fa-mobile"></i>&nbsp;&nbsp</span>

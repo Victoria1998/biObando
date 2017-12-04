@@ -10,9 +10,9 @@
     height: 60px;
 }
 .nn{
-/*        background-image: url(https://s3-sa-east-1.amazonaws.com/assets.abc.com.py/2012/12/07/_595_446_107406.JPG);
-        width: 100%;
-        height: 100%;*/
+    /*        background-image: url(https://s3-sa-east-1.amazonaws.com/assets.abc.com.py/2012/12/07/_595_446_107406.JPG);
+            width: 100%;
+            height: 100%;*/
 }
 .barra{
     margin-left: 50px;
@@ -20,10 +20,14 @@
 
 /*------------------------------contacto-----------------------------------*/
 .formulario{
+    /*width:560px;     Ancho máximo */
+    /*margin:auto;     Centramos el vídeo */
     margin-top: 30px;
     width: 40%;
 }
 .datosE{
+    /*width:560px;     Ancho máximo */
+    /*margin:auto;     Centramos el vídeo */
     margin-top: 10px;
     width: 48%;
     margin-left: 90px;
@@ -63,6 +67,8 @@
 .ti{
     text-decoration: none;
     margin-top: 5px;
+    border­radius: 200px;
+    overflow: hidden;
 }
 /*----------------------------------videos------------------------------------------*/
 .video{
@@ -70,20 +76,26 @@
     moz-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
     box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
     border: 2px solid;
-    margin-top: 20px;
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 20px;
- 
+    height:0px;
+    width:100%;
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+.delimitador{
+    width:560px;    /* Ancho máximo */
+    margin:auto;    /* Centramos el vídeo */
 }
 .botones{
-    margin-left: 35px;
-    margin-bottom: 10px;
+    margin-left: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .src{
-    width:470px;
-    height:310px;
-    margin-left: 30px;
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
 }
 /*---------------------------------producto-------------------------------------------*/
 

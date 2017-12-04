@@ -5,10 +5,9 @@ $config->setPath('C:/xampp/htdocs/biobando/');
 
 $config->setDrive('mysql');
 $config->setHost('localhost');
-$config->setPort(5432);
-$config->setUser('postgres');
-$config->setPassword('123');
-$config->setDbname('dbagenda');
+$config->setUser('root');
+$config->setPassword('');
+$config->setDbname('biobando');
 $config->setHash('md5');
 
 $config->setUrl('http://localhost/biobando/www/');
