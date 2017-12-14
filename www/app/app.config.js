@@ -13,6 +13,14 @@ angular.module('trapicheBiobando').config(['$routeProvider', '$httpProvider', fu
                     controller: 'videoController',
                     templateUrl: 'app/template/video.html'
                 }).
+                when('/video1', {
+                    controller: 'video1Controller',
+                    templateUrl: 'app/template/video1.html'
+                }).
+                when('/video2', {
+                    controller: 'video2Controller',
+                    templateUrl: 'app/template/video2.html'
+                }).
                 when('/nosotros', {
                     controller: 'nosotrosController',
                     templateUrl: 'app/template/nosotros.html'
