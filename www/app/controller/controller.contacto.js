@@ -1,4 +1,4 @@
-angular.module('trapicheBiobando').controller('contactoController'['$scope', 'agregarContacto', 'contactoService', function ($scope, agregarContacto) {
+angular.module('trapicheBiobando').controller('contactoController', ['$scope', 'agregarContacto', 'contactoService', function ($scope, agregarContacto) {
     $scope.dataRegistrarContacto = {
         nombre: '',
         correo: '',

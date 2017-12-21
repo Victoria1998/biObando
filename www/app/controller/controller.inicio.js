@@ -1,4 +1,4 @@
-angular.module('trapicheBiobando').controller('inicioController'[function () {
+angular.module('trapicheBiobando').controller('inicioController', [function () {
        
     }]);
 

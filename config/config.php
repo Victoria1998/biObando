@@ -3,10 +3,10 @@
 $config = new myConfig();
 $config->setPath('C:/xampp/htdocs/biobando/');
 
-$config->setDrive('mysql');
+$config->setDrive('postgres');
 $config->setHost('localhost');
-$config->setUser('root');
-$config->setPassword('');
+$config->setUser('5432');
+$config->setPassword('12345');
 $config->setDbname('biobando');
 $config->setHash('md5');
 

@@ -1,4 +1,4 @@
-angular.module('trapicheBiobando').controller('filosofiaempController'[ function () {
+angular.module('trapicheBiobando').controller('filosofiaempController', [ function () {
        
     }]);
 
