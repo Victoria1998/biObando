@@ -10,6 +10,9 @@
     width: 60px;
     height: 60px;
 }
+.n1{
+    background: #999999;
+}
 .nn{
     background-image: url(../img/caña.jpg);
     background-position: center center;
